@@ -1,6 +1,6 @@
 # Stocks Analytics
 
-- [Stocks Analytics](#Stocks Analytics)
+- [Stocks Analytics](#stocks-analytics)
 - [Useful Commands](#useful-commands)
 - [Goal](#goal)
   - [Overview](#overview)
@@ -12,7 +12,7 @@
   - [Activate the environment](#activate-the-environment)
 
 Stocks Analytics project.
-Data pipelines written in [Python 3](https://www.python.org/) on AWS stack and Snowflake.
+Data pipelines written in [Python 3](https://www.python.org/) on [AWS](https://www.amazon.com/) stack and [Snowflake](https://www.snowflake.com/).
 
 # Useful Commands
 
