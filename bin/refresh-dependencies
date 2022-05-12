@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -euo pipefail
+
+. bin/.utils --source-only
+assert_venv
+
+pip install pip==22.0.4 setuptools==62.1.0 wheel==0.37.1
+pip install -r requirements.txt

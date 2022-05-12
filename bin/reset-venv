@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -euo pipefail
+
+. bin/.utils --source-only
+
+if [[ -d "./$STOCKS_VENV" ]]; then
+    echo "Deleting virtual environment in $STOCKS_VENV"
+    rm -f ./activate-venv
+    rm -rf $STOCKS_VENV
+fi
+bin/setup-venv

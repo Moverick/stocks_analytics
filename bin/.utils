@@ -1,0 +1,10 @@
+#!/bin/bash
+
+STOCKS_VENV=".stocks_venv"
+
+assert_venv() {
+    if [[ ! "${VIRTUAL_ENV-}" =~ .+STOCKS_VENV ]]; then
+        echo "Activating Django Project virtual environment for this script"
+        . activate-venv
+    fi
+}
